@@ -496,10 +496,10 @@
  }
 .button-bottom {
     position: absolute;
-    /* width: 6px;*/
+    width: 6px;
     height: 0px; 
     left: 40px;
-    top: 3275px;
+    top: 3276px;
 }
 
 .experience-btn{
