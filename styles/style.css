@@ -375,9 +375,9 @@
 ----------Responsive style---
 ------------------------------ */
 @media screen and (max-width:688px) {
-    *{
+    /* *{
         border: 1px solid red;
-    }
+    } */
 
 
     .fonft {
