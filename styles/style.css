@@ -9,11 +9,20 @@
     padding: 0 45px 50px;
     background-color: rgb(255, 144, 14, 0.1);
 }
+/* -------------------------------
+----header section design start---
+-------------------------------- */
 .nav-container{
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-around;
+}
+.title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
 }
 .nav-title{
     height: 225px;
@@ -88,6 +97,11 @@
     width: 100%;
 }
 
+/* ----------------------------------
+-------Header section design end-----
+------------------------------------- */
+
+
 /* ------------------------------
 -------main section design-------
 --------------------------------- */
@@ -133,11 +147,6 @@
 
 
 .ql-style{
-    /* font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 26px; */
     text-align: center;    
     color: #727272;
 }
@@ -172,29 +181,7 @@
     margin: 10px 30px 10px 0px;
     padding: 5px 30px;
 }
-/* .list-container p{
-    
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #727272;
-} */
 
-
-
-.fonft{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-}
-.fonft-two{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-}
 .main-image-container{
     width: 100%;
     /* height: 900px; */
@@ -218,7 +205,7 @@
 
 }
 
-.experience{
+.experience-btn{
     width: 250px;
     padding: 20px;
     border: none;
@@ -230,7 +217,7 @@
     font-size: 45px;
     text-align: center;
 }
-.small-2{
+.small-font{
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
@@ -257,6 +244,12 @@
     align-items: center;
     text-align: center;
     transition: width 1.5s ease, height 1.5s ease, background 1.5s ease, border 1.5s ease;
+}
+.box-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
 }
 .box:hover{
     width: 150px;
@@ -380,7 +373,7 @@
     } */
 
 
-    .fonft {
+    .title {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 900;
@@ -509,7 +502,7 @@
     top: 3275px;
 }
 
-.experience{
+.experience-btn{
     width: 100px;
     padding: 2px;
     border: none;
@@ -521,7 +514,7 @@
     font-size: 20px;
     text-align: center;
 }
-.small-2 {
+.small-font {
     color: #FFFFFF;
     font-size: 12px;
     text-align: center;
@@ -658,3 +651,5 @@
 }
     
 }
+
+/* the end */
