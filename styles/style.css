@@ -375,9 +375,9 @@
 ----------Responsive style---
 ------------------------------ */
 @media screen and (max-width:688px) {
-    /* *{
-        border: 5px solid red;
-    } */
+    *{
+        border: 1px solid red;
+    }
 
 
     .fonft {
@@ -441,7 +441,7 @@
     width: 98%;
 }
 .main-info-container{
-    width: 100%;
+    width: 82%;
     /* margin: 6px; */
     padding: 60px;
     /* text-align: left; */
